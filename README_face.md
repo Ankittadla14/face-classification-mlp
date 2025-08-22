@@ -9,11 +9,9 @@ This repo compares two fully‑connected neural networks on a face/non‑face da
 .
 ├── facenn_baseline.py       # Baseline MLP (simpler architecture)
 ├── facenn_deepnn.py         # Deeper MLP with BN + Dropout (recommended)
-├── data/
-│   └── face_all.pickle      # Not tracked; place the dataset here
-├── README.md
-├── requirements.txt
-└── .gitignore
+├── README.md                # Project overview (this file)
+├── requirements.txt         # Python dependencies
+└── .gitignore               # Ignore unnecessary files
 ```
 > `face_all.pickle` is **not** committed. Place it at `./data/face_all.pickle`.
 
