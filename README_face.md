@@ -64,5 +64,3 @@ python facenn_deepnn.py
 - If you observe overfitting, increase dropout (e.g., 0.35/0.45). If underfitting, reduce by 0.05.
 - Batch size ≥ 64 is recommended for stable BatchNorm statistics.
 
-## License
-Add an MIT `LICENSE` file if you plan to open‑source this work.
