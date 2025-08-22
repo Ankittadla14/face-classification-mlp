@@ -57,8 +57,8 @@ python facenn_deepnn.py
 ## Results (fill after running)
 | Model | Test Accuracy | Notes |
 |---|---|---|
-| Baseline MLP (`facenn_baseline.py`) | XX% | Simpler network |
-| Deep MLP (`facenn_deepnn.py`) | YY% | BN + Dropout + AdamW |
+| Baseline MLP (`facenn_baseline.py`) | 84.67% | Simpler network |
+| Deep MLP (`facenn_deepnn.py`) | 90.1% | BN + Dropout + AdamW |
 
 ## Notes
 - If you observe overfitting, increase dropout (e.g., 0.35/0.45). If underfitting, reduce by 0.05.
